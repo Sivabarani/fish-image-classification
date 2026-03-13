@@ -1,8 +1,8 @@
 # fish-image-classification
 
-# 🐟 Multiclass Fish Image Classification
+# Multiclass Fish Image Classification
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on building a **Deep Learning–based image classification system** that can identify different species of fish from images. The solution uses **Convolutional Neural Networks (CNN)** and **Transfer Learning with pre-trained models** to improve classification accuracy.
 
@@ -10,7 +10,7 @@ The trained model is deployed using a **Streamlit web application** that allows 
 
 ---
 
-# 🎯 Problem Statement
+# Problem Statement
 
 Fish species classification is an important task in **marine biology, fisheries management, and the seafood industry**. Manual identification of fish species can be time-consuming and error-prone.
 
@@ -18,7 +18,7 @@ The goal of this project is to develop an **automated system that classifies fis
 
 ---
 
-# 🧠 Skills & Technologies Used
+# Skills & Technologies Used
 
 * Python
 * Deep Learning
@@ -32,9 +32,9 @@ The goal of this project is to develop an **automated system that classifies fis
 
 ---
 
-# 🏗️ Project Workflow
+# Project Workflow
 
-## 1️⃣ Data Collection
+## Data Collection
 
 The dataset contains images of different fish species organized into folders where each folder represents a class.
 
@@ -49,7 +49,7 @@ data/
 
 ---
 
-## 2️⃣ Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -59,7 +59,7 @@ The following preprocessing steps were applied:
 
 ---
 
-## 3️⃣ Data Augmentation
+## Data Augmentation
 
 To improve model generalization and prevent overfitting:
 
@@ -69,7 +69,7 @@ To improve model generalization and prevent overfitting:
 
 ---
 
-## 4️⃣ Model Development
+## Model Development
 
 Two approaches were used:
 
@@ -91,7 +91,7 @@ Pre-trained models were initialized with **ImageNet weights** and fine-tuned on 
 
 ---
 
-## 5️⃣ Model Evaluation
+## Model Evaluation
 
 Models were evaluated using:
 
@@ -105,7 +105,7 @@ Training history (accuracy and loss) was also visualized to analyze model perfor
 
 ---
 
-## 6️⃣ Model Selection
+## Model Selection
 
 The model with the **highest validation accuracy** was selected as the final model and saved as a `.h5` file.
 
@@ -115,7 +115,7 @@ best_model.h5
 
 ---
 
-# 🚀 Streamlit Deployment
+# Streamlit Deployment
 
 A **Streamlit web application** was built to allow users to:
 
@@ -131,7 +131,7 @@ streamlit run app.py
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 fish-image-classification
@@ -153,7 +153,7 @@ fish-image-classification
 
 ---
 
-# 📦 Requirements
+# Requirements
 
 Install dependencies using:
 
@@ -174,7 +174,7 @@ matplotlib
 
 ---
 
-# 📊 Model Prediction Example
+# Model Prediction Example
 
 Upload a fish image in the Streamlit app.
 
@@ -187,7 +187,7 @@ Confidence: 94.7%
 
 ---
 
-# 💡 Business Use Cases
+# Business Use Cases
 
 * Fish species identification
 * Marine biodiversity research
@@ -196,7 +196,7 @@ Confidence: 94.7%
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 * Improve dataset size
 * Apply advanced augmentation
